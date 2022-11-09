@@ -68,7 +68,7 @@ h1 {
   letter-spacing: 1.8px;
   word-spacing: 2px;
 }
-p {
+.left p {
   margin-left: 50px;
 }
 h2 {
@@ -77,8 +77,26 @@ h2 {
 .right {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+
 }
 .right ul img {
   height: 100px;
   width: auto;
+}
+.blocx {
+  margin-top: 115px;
+  margin-bottom: 115px;
+  background-color: #59bdb1;
+  width: 40px;
+}
+.blocx p {
+  writing-mode: vertical-rl;
+  color: white;
+  margin: 5px;
+}
+h4 {
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
 }
