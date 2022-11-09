@@ -21,6 +21,19 @@ color: #c9adaa;
 .right { grid-area: 2 / 3 / 3 / 4; }
 .footer { grid-area: 3 / 2 / 4 / 4; }
 
+ul {
+  list-style: none;
+
+}
+#menu-icon {
+  border: 600px;
+}
+
+.menu img {
+  height: 20px;
+  width: auto;
+}
+
 .header {
 display: grid;
 grid-template-columns: 6fr 1fr;
