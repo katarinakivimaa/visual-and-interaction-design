@@ -2,11 +2,10 @@ body {
   background-color: #feeae9;
 }
 
-
 .webpage {
 display: grid;
 grid-template-columns: 0.5fr 4fr 3fr;
-grid-template-rows: 1fr 3fr 1fr;
+grid-template-rows: 1fr 4fr 0.5fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
@@ -24,6 +23,8 @@ grid-row-gap: 0px;
 
 ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 .menu {
   display: flex;
@@ -31,10 +32,13 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
-#menu-icon {
+.menu-icon {
   border-bottom: 300px;
 }
-
+hr {
+  width: 20px;
+  color: #dfc4c3
+}
 .menu img {
   height: 30px;
   width: auto;
@@ -59,6 +63,10 @@ h3 {
 h1 {
   color: #ba6b70;
   margin: 50px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 31px;
+  letter-spacing: 1.8px;
+  word-spacing: 2px;
 }
 p {
   margin-left: 50px;
@@ -69,4 +77,8 @@ h2 {
 .right {
   display: flex;
   flex-direction: row;
+}
+.right ul img {
+  height: 100px;
+  width: auto;
 }
