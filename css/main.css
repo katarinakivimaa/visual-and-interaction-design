@@ -67,7 +67,7 @@ h1 {
   color: #ba6b70;
   margin: 50px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 41px;
+  font-size: 61px;
   letter-spacing: 1.8px;
   word-spacing: 2px;
 }
@@ -81,7 +81,7 @@ h5 {
   margin: 50px;
   margin-top: -50px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 41px;
+  font-size: 61px;
   letter-spacing: 1.8px;
   word-spacing: 2px;
 }
@@ -99,6 +99,7 @@ h2 {
 .right ul img {
   height: 120px;
   width: auto;
+  /*tuleb välja, et remove bg linki ei tohi kasutada, sest see kaob ära üle aja*/
 }
 .blocx {
   margin-top: 115px;
